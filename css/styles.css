@@ -1,9 +1,22 @@
 body{
-    margin: 0px;
+    margin: 0;
 }
 h1{
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
-div{
+.top-container{
     background-color: #E1578A;
 }
+
+.middle-container{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
