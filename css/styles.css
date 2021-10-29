@@ -1,11 +1,29 @@
 body{
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
+
 h1{
-    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
 }
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Top container is relative because we want 
+the bottom cloud positoining to be relative 
+to the div and not the body*/
 .top-container{
     background-color: #C8E3D4;
+    position: relative;
+    padding-top: 100px;
 }
 
 .middle-container{
@@ -20,3 +38,18 @@ h1{
     width: 200px;
 }
 
+.pro{
+    text-decoration: underline black;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
