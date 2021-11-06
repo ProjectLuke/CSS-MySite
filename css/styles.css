@@ -87,5 +87,13 @@ to the div and not the body*/
     width: 25%;
     float: right;
     margin-left: 30px;
-    
+
+}
+
+.cloud-text{
+    clear: left;
+}
+
+.gaming-text{
+    clear: right
 }
