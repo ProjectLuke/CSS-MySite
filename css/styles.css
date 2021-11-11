@@ -31,6 +31,10 @@ hr{
     margin: 100px auto 100px auto;
 }
 
+a{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /*Top container is relative because we want 
 the bottom cloud positoining to be relative 
 to the div and not the body*/
@@ -44,8 +48,14 @@ to the div and not the body*/
     
 }
 
+.btn{
+    margin: 50px auto 80px auto;
+}
+
 .bottom-container{
-    
+    background-color: #66BFBF;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .skill-row{
@@ -110,3 +120,58 @@ to the div and not the body*/
 .contact-text{
     padding: auto 25% auto 25%;
 }
+
+.BUTTON_IPC {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #009A9A);
+    background-image: -moz-linear-gradient(top, #66BFBF, #009A9A);
+    background-image: -ms-linear-gradient(top, #66BFBF, #009A9A);
+    background-image: -o-linear-gradient(top, #66BFBF, #009A9A);
+    background-image: -webkit-gradient(to bottom, #66BFBF, #009A9A);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: Verdana;
+    width: 140px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 18px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_IPC:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .footer-link{
+     color: #11999e;
+     font-size: 20px;
+     font-weight: bold;
+     text-decoration: none;
+ }
+
+ .cr-text{
+     color: #EAF6F6;
+     position: relative;
+     top: 30px;
+ }
+
+ #mid-link {
+     margin: auto 35px auto 35px;
+ }
