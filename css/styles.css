@@ -1,4 +1,5 @@
 body{
+    color: #40514e;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -15,6 +16,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
+    padding-bottom: 10px;
 }
 
 h3{
@@ -110,7 +112,7 @@ to the div and not the body*/
     margin-left: 30px;
 
 }
-
+/*Instead of padding, can also use width instead*/
 .pfp-text{
     margin: auto 80px auto 80px;
     padding-left: 25%;
